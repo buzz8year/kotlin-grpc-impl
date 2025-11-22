@@ -38,6 +38,6 @@ fun main(): Unit = runBlocking {
     stub.streamEvents(request, responseObserver)
 
     // NOTE: Keep the application running to receive messages
-    delay(4000)
+    delay(10000)
     channel.shutdown()
 }
